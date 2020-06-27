@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+}
+.hero {
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(images/hero.jpg) center/cover no-repeat fixed;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.nav-header .logo {
+  width: 50%;
+}

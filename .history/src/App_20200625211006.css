@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+}
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(images/hero.jpg) center/cover no-repeat fixed;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  margin: 0px 3.5rem;
+}
+.nav-header .logo {
+  width: 50%;
+}
+.nav-sign-link {
+  background-color: #e50914;
+  padding: 3px 15px 7px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}

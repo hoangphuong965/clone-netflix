@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.hero{
+  min-height: 100vl;
+}
+.nav-center{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.nav-header .logo{
+  width: 50%;
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1500px;
+  margin: 0 auto;
+}
+/* helper */
+.hero{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.nav-center{
+  display: flex;
+  jus
+}
+.nav-header .logo{
+  width: 50%;
+}
