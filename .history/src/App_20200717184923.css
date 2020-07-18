@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+}
+.navbar {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(images/hero.jpg) center/cover no-repeat fixed;
+  position: relative;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  margin: 0px 3.5rem;
+}
+.nav-header .logo {
+  width: 50%;
+}
+.nav-sign-link {
+  background-color: #e50914;
+  padding: 3px 15px 7px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.story {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.story > h1 {
+  max-width: 16em;
+  margin: auto;
+  font-size: 2.6rem;
+}
+.story > h2 {
+  margin: auto;
+  padding: 15px 0 25px;
+  font-size: 27px;
+  font-weight: inherit;
+}
+.story > h3 {
+  margin: auto;
+  padding: 10px;
+  font-weight: inherit;
+}
+.email-form {
+  display: flex;
+}
+.input-email {
+  width: 35rem;
+  height: 5rem;
+}
+.btn-started {
+  background-color: #e50914;
+  padding: 26px 25px 26px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.btn-started::after {
+  content: ">";
+  color: #fff;
+  margin-left: 5px;
+}
+
+.sign-in {
+  position: absolute;
+  width: 420px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-main {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  width: 80%;
+  height: 50%;
+}
+.form-main > h1 {
+  padding: 0 10% 0;
+}
+.form-input {
+  padding: 10%;
+}
+.sign-input {
+  width: 18rem;
+  height: 3rem;
+  background-color: rgb(51, 51, 51);
+  margin-bottom: 16px;
+  border: none;
+  font-size: 20px;
+}
+.sign-input::placeholder {
+  color: rgb(140, 140, 140);
+  margin: 10px;
+}
+.sign-submit {
+  background-color: #e50914;
+  padding: 4px 25px 4px;
+  color: #fff;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.need-help {
+  margin-top: 10px;
+}
+.remember-check[type="checkbox"] {
+  border-radius: 2px;
+  border: 0;
+  height: 16px;
+  width: 16px;
+}
+.label {
+  padding-top: 1px;
+}
+.label-text {
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 0;
+}
+
+.input-email {
+  font-size: 20px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.input-email:hover::placeholder {
+  font-size: 20px;
+}
+.input-email:hover::placeholder {
+  color: #e50914;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+/* ===================== */
+
+/* enjoy */
+.card {
+  margin: 0 auto;
+  height: 483px;
+  background-color: rgb(68, 13, 13);
+  position: relative;
+}
+
+.card-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 40rem);
+  top: 25%;
+  left: 7%;
+  height: 20rem;
+}
+
+.card-text-container {
+  color: #fff;
+}
+
+
+.card-animation-container{
+  position: relative;
+  
+}
+
+.card-animation-container img{
+  position: absolute;
+  bottom: -88px;
+}
+.card-animation video{
+  po
+}
+
