@@ -13,7 +13,7 @@ function TextAnimation({ title, subtitle, img_animation, video_animation }) {
             <div className="card-animation-container">
               <img src={img_animation} alt="" />
               <div className="card-animation">
-                <video autoplay="" playsinline="" loop>
+                <video autoplay playsinline muted loop>
                   <source src={video_animation} type="video/mp4" />
                 </video>
               </div>
