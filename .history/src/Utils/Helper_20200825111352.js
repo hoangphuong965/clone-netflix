@@ -1,0 +1,2 @@
+// flatten
+export function flatten()

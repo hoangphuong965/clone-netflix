@@ -1,0 +1,20 @@
+export const Questions = [
+         {
+           id: 1,
+           question: "Netflix là gì?",
+           answer:
+             "Netflix là dịch vụ phát trực tuyến mang đến đa dạng các loại chương trình truyền hình, phim, anime, phim tài liệu đoạt giải thưởng và nhiều nội dung khác trên hàng nghìn thiết bị có kết nối Internet.Bạn có thể xem bao nhiêu tùy thích, bất cứ lúc nào bạn muốn mà không gặp phải một quảng cáo nào – tất cả chỉ với một mức giá thấp hàng tháng. Luôn có những nội dung mới để bạn khám phá và những chương trình truyền hình, phim mới được bổ sung mỗi tuần!",
+         },
+         {
+           id: 2,
+           question: "Tôi phải trả bao nhiêu tiền để xem Netflix?",
+           answer:
+             "Xem Netflix trên điện thoại thông minh, máy tính bảng, TV thông minh, máy tính xách tay hoặc thiết bị phát trực tuyến, chỉ với một khoản phí cố định hàng tháng. Các gói dịch vụ với mức giá từ 180.000 ₫ đến 260.000 ₫ mỗi tháng. Không phụ phí, không hợp đồng.",
+         },
+         {
+           id: 2,
+           question: "Tôi có thể xem ở đâu?",
+           answer:
+             "Xem Netflix trên điện thoại thông minh, máy tính bảng, TV thông minh, máy tính xách tay hoặc thiết bị phát trực tuyến, chỉ với một khoản phí cố định hàng tháng. Các gói dịch vụ với mức giá từ 180.000 ₫ đến 260.000 ₫ mỗi tháng. Không phụ phí, không hợp đồng.",
+         },
+       ];
