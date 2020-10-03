@@ -14,7 +14,7 @@ const QuestionTab = () => {
             style={{ color: "white", fontSize: "20px" }}
             id="question"
           >
-            <i class="dropdown icon"></i>
+            <i className="dropdown icon"></i>
             {item.question}
           </div>
           <div className={`content ${active}`}>

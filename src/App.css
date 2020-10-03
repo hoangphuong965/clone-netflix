@@ -217,7 +217,10 @@ li {
   max-width: 98%;
   z-index: 1;
 }
-
+.enjoy {
+  width: 100%;
+  background-color: black;
+}
 .enjoy .card-animation {
   width: 1000px;
   height: 100%;
@@ -274,4 +277,62 @@ li {
 
 .title:not(.ui) {
   color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 25rem);
+    top: 5%;
+    height: 20rem;
+  }
+  .card {
+    height: 600px;
+  }
+  .card-img-container {
+    margin-top: 0rem;
+  }
+
+  .story {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  .story > h1 {
+    max-width: 14em;
+    margin: auto;
+    font-size: 2.2rem;
+  }
+  .story > h2 {
+    margin: auto;
+    padding: 30px 90px;
+    font-size: 20px;
+    font-weight: inherit;
+  }
+  .story > h3 {
+    padding: 10px 90px;
+    margin-top: 5rem;
+  }
+
+  .email-form {
+    display: flex;
+    padding: 0 5rem;
+  }
+  .input-email {
+    width: 30rem;
+    height: 4rem;
+    color: black;
+  }
+  .btn-started {
+    left: 40%;
+    top: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: red;
+    font-weight: bold;
+  }
 }

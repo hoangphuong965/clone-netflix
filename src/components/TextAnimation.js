@@ -3,8 +3,8 @@ import React from "react";
 function TextAnimation({ title, subtitle, img_animation, video_animation }) {
   return (
     <>
-      <div className="card">
-        <div className="card-container">
+      <div className="card ">
+        <div className=" card-container">
           <div className="card-text-container">
             <h1>{title}</h1>
             <h2>{subtitle}</h2>
